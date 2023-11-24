@@ -8,6 +8,8 @@ sudo cp configs/.vimrc ~/.vimrc
 sudo apt install -y fonts-powerline
 
 # Install Patched Font
-mkdir ~/.fonts
-sudo cp -a fonts/. ~/.fonts/
-fc-cache -vf ~/.fonts/
+if [ ! -d "$HOME/.fonts" ]; then
+    mkdir "$HOME/.fonts"
+fi
+sudo cp -a fonts/. "$HOME/.fonts/"
+fc-cache -vf "$HOME/.fonts/"
