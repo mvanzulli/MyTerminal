@@ -1,4 +1,4 @@
-# Muri's Unix Terminal Customization Guide
+# Mauri's Unix Terminal Customization Guide
 
 ## Overview
 This guide details my custom terminal setup for UNIX-based systems (MacOS/Linux). It includes information on using iTerm2 for MacOS and the default terminal app for Ubuntu. 
